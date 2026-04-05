@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Agama - Intan Nur Syafariana</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Amiri&display=swap" rel="stylesheet">
+    
+    <style>
+        /* 1. RESET & BASE STYLES */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* 2. HEADER SECTION */
+        .hero-section {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-radius: 0 0 40px 40px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .hero-section h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .bio-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+            border: 1px solid rgba(255,255,255,0.3);
+            text-align: left;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .bio-card p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+
+        /* 3. MAIN CONTAINER */
+        .container {
+            max-width: 800px;
+            margin: -30px auto 0;
+            padding: 0 15px 60px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #1e3c72;
+            border-left: 5px solid #f39c12;
+            padding-left: 15px;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            color: #27ae60;
+            margin-top: 25px;
+            font-size: 1.2rem;
+        }
+
+        /* 4. CONTENT STYLES */
+        .syarat-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .syarat-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            border-bottom: 3px solid #27ae60;
+            font-size: 0.9rem;
+        }
+
+        .urgensi-list {
+            background: #fff8ef;
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px dashed #f39c12;
+            font-size: 0.9rem;
+        }
+
+        .arabic {
+            font-family: 'Amiri', serif;
+            font-size: 1.6rem;
+            text-align: right;
+            direction: rtl;
+            background: #eef7f2;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+            color: #1b5e20;
+            line-height: 2.2;
+        }
+
+        .translation {
+            font-style: italic;
+            color: #666;
+            display: block;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-left: 3px solid #ddd;
+            font-size: 0.85rem;
+        }
+
+        .hikmah-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .hikmah-tag {
+            background: #27ae60;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .reference-box {
+            background: #fdfdfd;
+            border-top: 2px solid #eee;
+            padding: 20px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+        }
+
+        .reference-box a {
+            color: #1e3c72;
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #888;
+            font-size: 0.8rem;
+        }
+
+        /* Responsive Desktop */
+        @media (min-width: 768px) {
+            .syarat-grid { grid-template-columns: repeat(2, 1fr); }
+            .hero-section h1 { font-size: 2.5rem; }
+            .hero-section { padding: 80px 0; }
+            .arabic { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-section">
+        <h1>Makna & Urgensi Syahadatain</h1>
+        <div class="bio-card">
+            <p><strong>Nama:</strong> Intan Nur Syafariana</p>
+            <p><strong>NIM:</strong> 312310271</p>
+            <p><strong>Kelas:</strong> TI.23.C.4</p>
+            <p><strong>Kampus:</strong> Universitas Pelita Bangsa</p>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section class="card">
+            <h2>I. Pengertian Syahadatain</h2>
+            <p>Syahadatain berasal dari kata bahasa Arab yang berarti <b>"Dua Kalimat Persaksian"</b>. Ini adalah gerbang utama seseorang masuk ke dalam Islam.</p>
+            <ul>
+                <li><strong>Syahadat Tauhid:</strong> <i>Lā ilāha illallāh</i> (Tiada Tuhan selain Allah).</li>
+                <li><strong>Syahadat Rasul:</strong> <i>Muhammadur Rasūlullāh</i> (Muhammad utusan Allah).</li>
+            </ul>
+
+            <h3>Syarat-syarat Sah Syahadat</h3>
+            <div class="syarat-grid">
+                <div class="syarat-item"><strong>1. Ilmu:</strong> Memahami arti syahadat.</div>
+                <div class="syarat-item"><strong>2. Yakin:</strong> Tidak ada keraguan di hati.</div>
+                <div class="syarat-item"><strong>3. Ikhlas:</strong> Mengharap ridha Allah semata.</div>
+                <div class="syarat-item"><strong>4. Jujur:</strong> Lisan dan hati harus sama.</div>
+                <div class="syarat-item"><strong>5. Cinta:</strong> Mencintai Allah dan Rasul-Nya.</div>
+                <div class="syarat-item"><strong>6. Menerima:</strong> Tidak menolak isi syahadat.</div>
+                <div class="syarat-item"><strong>7. Ketundukan:</strong> Mengamalkan konsekuensinya.</div>
+            </div>
+
+            <h3>Urgensi Syahadat</h3>
+            <div class="urgensi-list">
+                <p>1. Pintu masuk ke dalam Islam.<br>
+                   2. Dasar dari setiap amal ibadah.<br>
+                   3. Inti dari dakwah para Rasul.<br>
+                   4. Jaminan kebahagiaan dunia dan akhirat.<br>
+                   5. Pembeda antara Muslim dan non-Muslim.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>II. Kisah Nabi Musa AS</h2>
+            <p style="text-align: justify;">
+                Kisah Nabi Musa AS mengajarkan kita tentang keteguhan iman saat menghadapi kedzaliman Firaun. Mukjizat membelah Laut Merah adalah bukti nyata bahwa pertolongan Allah selalu ada bagi hamba-Nya yang bersabar.
+            </p>
+
+            <div class="arabic">وَجَاوَزْنَا بِبَنِيْ إِسْرَاءِيْلَ الْبَحْرَ...</div>
+            <span class="translation">"Dan Kami selamatkan Bani Israil menyeberangi laut itu... (QS. Al-A’raf: 138)"</span>
+
+            <div class="arabic">اذْهَبَا إِلَى فِرْعَوْنَ إِنَّهُ طَغَى</div>
+            <span class="translation">"Pergilah kamu berdua kepada Fir‘aun, karena dia benar-benar telah melampaui batas (QS. Taha: 43)"</span>
+
+            <h3>Hikmah Utama:</h3>
+            <div class="hikmah-box">
+                <span class="hikmah-tag">Tauhid</span>
+                <span class="hikmah-tag">Kesabaran</span>
+                <span class="hikmah-tag">Keberanian</span>
+                <span class="hikmah-tag">Ketaatan</span>
+                <span class="hikmah-tag">Keadilan</span>
+            </div>
+        </section>
+
+        <section class="card reference-box">
+            <h3 style="margin-top:0; color:#333;">Referensi:</h3>
+            <p>• <a href="https://www.detik.com/hikmah/khazanah/d-6981999/syahadatain-sebutan-untuk-2-kalimat-syahadat-dalam-islam" target="_blank">Detik: Syahadatain dalam Islam</a></p>
+            <p>• <a href="https://repository.radenfatah.ac.id/19365/2/2.pdf" target="_blank">Raden Fatah: Materi PAI</a></p>
+            <p>• <a href="https://almasoem.sch.id/saling-doa/ganjaran-bersabar-atas-siksaan-firaun/" target="_blank">Al Masoem: Kisah Nabi Musa</a></p>
+            <p>• <a href="https://www.sarungatlas.co.id/post/article/hikmah-dari-kisah-nabi-musa-as" target="_blank">Sarung Atlas: Hikmah Perjuangan Nabi Musa</a></p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Intan Nur Syafariana - Teknik Informatika UPB</p>
+        </footer>
+    </div>
+
+</body>
+</html>
